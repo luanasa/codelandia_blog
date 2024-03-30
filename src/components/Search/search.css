@@ -1,0 +1,29 @@
+.search-container {
+  width: 900px;
+  border-radius: 8px;
+  padding: 16px 24px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  background-color: #252529;
+}
+
+.search-container img {
+  width: 24px; 
+  height: 24px; 
+}
+
+.search-container input[type="text"] {
+  flex: 1;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  background: none;
+  color: #AFABB6;
+}
+
+@media only screen and (max-width: 768px) {
+  .search-container {
+    width: 327px;
+  }
+}
